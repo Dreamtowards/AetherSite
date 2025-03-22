@@ -1,0 +1,54 @@
+@import './base.css';
+
+#app {
+
+}
+
+body {
+
+  background-color: var(--color-background-soft);
+}
+
+a {
+  color: inherit;
+  /*text-decoration: none;*/
+}
+
+
+/*body {*/
+/*  --color-background-soft: #000;*/
+/*  --color-text: #fff;*/
+/*}*/
+/*header, footer {*/
+/*  --bs-primary: #f09c02;*/
+/*  filter: invert(100%)!important;*/
+/*}*/
+
+/*a,*/
+/*.green {*/
+/*  text-decoration: none;*/
+/*  color: hsla(160, 100%, 37%, 1);*/
+/*  transition: 0.4s;*/
+/*}*/
+
+@media (hover: hover) {
+  a:hover {
+    /*background-color: hsla(160, 100%, 37%, 0.2);*/
+    cursor: pointer;
+  }
+}
+
+
+.major-btn {
+  font-size: 15px;
+  background: rgba(224, 224, 224, 0.35);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  line-height: 1.2;
+  border-radius: 4px;
+  padding: 10px 27px;
+
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
